@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.dy.com.myviewdemo.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/czf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常志飞View"
+        />
+    <Button
+        android:id="@+id/by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="白叶View"
+        />
+    <Button
+        android:id="@+id/lyh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="李艳慧View"
+        />
+    <Button
+        android:id="@+id/dy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="杜岩View"
+        />
+
+
+
+</LinearLayout>
