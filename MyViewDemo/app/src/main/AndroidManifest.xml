@@ -19,7 +19,13 @@
         <activity android:name=".activity.ChangActivity" />
         <activity android:name=".activity.bai.BaiActivity" />
         <activity android:name=".activity.li.LiActivity" />
-        <activity android:name=".activity.du.DuActivity"></activity>
+        <activity android:name=".activity.du.DuActivity" />
+        <activity android:name=".activity.bai.Bezier2Activity" />
+        <activity android:name=".activity.bai.Bezier3Activity" />
+        <activity android:name=".activity.bai.ZheActivity" />
+        <activity android:name=".activity.bai.jian_xiActivity" />
+        <activity android:name=".activity.bai.BaiView.PiaoActivity" />
+        <activity android:name=".activity.bai.WaveActivity"></activity>
     </application>
 
 </manifest>
