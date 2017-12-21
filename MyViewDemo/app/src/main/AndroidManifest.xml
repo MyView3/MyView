@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.ChangActivity" />
-        <activity android:name=".activity.BaiActivity" />
-        <activity android:name=".activity.LiActivity" />
-        <activity android:name=".activity.DuActivity"></activity>
+        <activity android:name=".activity.bai.BaiActivity" />
+        <activity android:name=".activity.li.LiActivity" />
+        <activity android:name=".activity.du.DuActivity"></activity>
     </application>
 
 </manifest>

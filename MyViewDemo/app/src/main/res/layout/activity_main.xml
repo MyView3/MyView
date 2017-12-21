@@ -18,19 +18,19 @@
         android:id="@+id/by"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="白叶View"
+        android:text="渐变View"
         />
     <Button
         android:id="@+id/lyh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="李艳慧View"
+        android:text="渐变+吸顶View"
         />
     <Button
         android:id="@+id/dy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="杜岩View"
+        android:text="折线图View"
         />
 
 

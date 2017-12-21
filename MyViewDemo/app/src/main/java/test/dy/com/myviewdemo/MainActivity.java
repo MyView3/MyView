@@ -8,10 +8,10 @@ import android.widget.Button;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import test.dy.com.myviewdemo.activity.BaiActivity;
+import test.dy.com.myviewdemo.activity.bai.BaiActivity;
 import test.dy.com.myviewdemo.activity.ChangActivity;
-import test.dy.com.myviewdemo.activity.DuActivity;
-import test.dy.com.myviewdemo.activity.LiActivity;
+import test.dy.com.myviewdemo.activity.du.DuActivity;
+import test.dy.com.myviewdemo.activity.li.LiActivity;
 
 public class MainActivity extends AppCompatActivity {
 

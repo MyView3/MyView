@@ -1,4 +1,4 @@
-package test.dy.com.myviewdemo.activity;
+package test.dy.com.myviewdemo.activity.du;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
