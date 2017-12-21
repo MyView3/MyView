@@ -6,68 +6,98 @@
     android:layout_height="match_parent"
     tools:context="test.dy.com.myviewdemo.MainActivity"
     android:orientation="vertical"
+    android:layout_marginTop="150dp"
     >
 
     <Button
         android:id="@+id/czf"
-        android:layout_width="match_parent"
+        android:layout_width="80dp"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:text="常志飞View"
+        
         />
-    <Button
-        android:id="@+id/by"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="渐变View"
-        />
-    <Button
-        android:id="@+id/lyh"
-        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/by"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="渐变View"
+            />
+        <Button
+            android:id="@+id/lyh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="渐变+吸顶View"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="渐变+吸顶View"
-        />
-    <Button
-        android:id="@+id/dy"
-        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/erjie"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="二阶贝塞尔"
+            />
+        <Button
+            android:id="@+id/sanjie"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="三阶贝塞尔"
+            />
+        <Button
+            android:id="@+id/zz"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="折线图+柱形"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:text="折线图View"
-        />
-    <Button
-        android:id="@+id/erjie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="二阶贝塞尔"
-        />
-    <Button
-        android:id="@+id/sanjie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="三阶贝塞尔"
-        />
-    <Button
-        android:id="@+id/zz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="折线图+柱形图"
-        />
-    <Button
-        android:id="@+id/jb_xd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="渐变+吸顶"
-        />
-    <Button
-        android:id="@+id/px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="飘心"
-        />
-    <Button
-        android:id="@+id/water"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="水波纹"
-        />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/dy"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="折线图View"
+            />
+
+        <Button
+            android:id="@+id/jb_xd"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="渐变+吸顶"
+            />
+        <Button
+            android:id="@+id/px"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="点赞飘心效果"
+            />
+        <Button
+            android:id="@+id/water"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="水波纹效果"
+            />
+    </LinearLayout>
+
+
+
 
 
 
