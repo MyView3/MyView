@@ -26,6 +26,7 @@
         <activity android:name=".activity.bai.jian_xiActivity" />
         <activity android:name=".activity.bai.BaiView.PiaoActivity" />
         <activity android:name=".activity.bai.WaveActivity"></activity>
+        <activity android:name=".activity.chang.Xuan"></activity>
     </application>
 
 </manifest>

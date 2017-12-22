@@ -9,7 +9,6 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import test.dy.com.myviewdemo.activity.ChangActivity;
 import test.dy.com.myviewdemo.activity.bai.BaiActivity;
 import test.dy.com.myviewdemo.activity.bai.BaiView.PiaoActivity;
 import test.dy.com.myviewdemo.activity.bai.Bezier2Activity;
@@ -17,6 +16,7 @@ import test.dy.com.myviewdemo.activity.bai.Bezier3Activity;
 import test.dy.com.myviewdemo.activity.bai.WaveActivity;
 import test.dy.com.myviewdemo.activity.bai.ZheActivity;
 import test.dy.com.myviewdemo.activity.bai.jian_xiActivity;
+import test.dy.com.myviewdemo.activity.chang.Xuan;
 import test.dy.com.myviewdemo.activity.du.DuActivity;
 import test.dy.com.myviewdemo.activity.li.LiActivity;
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.czf:
-                Intent intent = new Intent(MainActivity.this, ChangActivity.class);
+                Intent intent = new Intent(MainActivity.this, Xuan.class);
                 startActivity(intent);
                 break;
             case R.id.by:
